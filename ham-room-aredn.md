@@ -25,7 +25,7 @@ config device
 	option macaddr 84:A9:38:D2:0C:C5
 	list ports 'br0.4'
 
-# option macaddr DC:2C:6E:4A:E6:9A
+\# option macaddr DC:2C:6E:4A:E6:9A
 
 ....
 
