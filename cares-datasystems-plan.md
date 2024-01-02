@@ -33,3 +33,22 @@ other locations.
 At each location, a highly-available storage server will be installed,
 providing reliable storage that the hypervisors will use to 
 implement their services and enable replication of data between locations.
+
+#### Services offered
+
+* Mesh-based PBX.  At this time, hamphone is not supported.  The purpose is
+enhance communication with Oregon OEM, Clackamas Disaster Management, and
+other served agencies within Clackamas County.
+* File storage.  There are many uses for this, including:
+  - Gold copies of necessary software in an offline environment
+  - Gold copies of ham radio software and drivers
+  - Operating system images as needed to reimage hardware using only the mesh
+  - Documentation and manuals for ham radios and systems
+  - As-needed ad-hoc storage for images and documents during an event
+  - As-needed storage for Winlink and other mail systems
+  - Virtual Machine images, used to provide digital services to our
+    served agencies
+* Winlink connectivity, at multi-megabit speeds over the mesh, but
+also via a RMS Gateway that would allow communication over VHF/UHF/HF
+as necessary.
+
