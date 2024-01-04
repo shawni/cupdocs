@@ -51,4 +51,7 @@ other served agencies within Clackamas County.
 * Winlink connectivity, at multi-megabit speeds over the mesh, but
 also via a RMS Gateway that would allow communication over VHF/UHF/HF
 as necessary.
+* Chat functions - both meshchat (simple) and Mastodon (Slack-like, allows
+  file sharing bewteen particpants
+  
 
