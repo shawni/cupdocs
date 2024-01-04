@@ -39,6 +39,7 @@ implement their services and enable replication of data between locations.
 * Mesh-based PBX.  At this time, hamphone is not supported.  The purpose is
 enhance communication with Oregon OEM, Clackamas Disaster Management, and
 other served agencies within Clackamas County.
+* Part 15 WiFi access to AREDN to support LinPhone Mesh PBX on portable devices
 * File storage.  There are many uses for this, including:
   - Gold copies of necessary software in an offline environment
   - Gold copies of ham radio software and drivers
