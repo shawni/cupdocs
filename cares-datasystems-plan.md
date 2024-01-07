@@ -56,3 +56,29 @@ as necessary.
   file sharing bewteen particpants
   
 
+#### Storage replication
+
+* The David Kidd Ham Room at the CUP in Oregon City will host the
+  file replication primary copy.
+* The file servers elsewhere will be kept in sync with rsync, run on a
+  daily basis when there isn't an active event.  Internet based tunnels
+  may be used for non-event replicaton.  An effort will be made to
+  stagger updates so that links between sites are not saturated.
+* At this time, the expected remote file server locations will be:
+  - Lake Oswego
+  - Wilsonville
+* Replication during an event will be on a as-needed and on a
+  as-bandwidth-is-available basis.
+* Priority will be given to event-related ad-hoc files being replicated
+  during an event; other files may be replicated if bandwidth and time
+  permits.
+
+#### Service Platform
+
+* Each service offered will be enabled via a Virtual Machine running on
+  one of the hypervisor servers.
+* XCP-NG, with Xen Orchestra, will be the hypervisor platform of choice.
+  - Managable with web browser
+  - Allows VM migration between hypervisors in the event of server
+    failure
+
