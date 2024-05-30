@@ -14,7 +14,7 @@ a channel that will not interfere with the primary, and at low power.
 in a probationary status.  The standby radio will NOT be upgraded yet.
 
 1.  If the primary radio functions correctly for a month, the standby
-can be upgraded.
+can be upgraded.  
 
 1.  If the primary fails, power is removed by unplugging the POE or
 otherwise configuring smart power (power injector plugged into smart
