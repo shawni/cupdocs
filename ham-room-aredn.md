@@ -33,6 +33,16 @@ be used if it wasn't overridden (you can verify by removing all macaddr
 commands and rebooting; when you can reconnect and look at this file,
 it should have the lower macaddr within the "option device" stanza.
 
+3a.
+```
+ config device
+ 	option name 'br-wan'
+ 	option type 'bridge'
+ 	option macaddr 84:A9:38:D2:0C:C6  # DKHR number 2
+ 	list ports 'br0.4'
+
+```
+
 4.  The above macaddr that is NOT commented out is the one that the County
 network devices know belong to the DKHR and should be preserved across
 upgrades.  Make a note of it before the upgrade (it should be this one).
