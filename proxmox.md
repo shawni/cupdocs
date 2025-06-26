@@ -10,6 +10,6 @@ Standard naming: WA7OC-PVE{number}.local.mesh.
 Not recommended to run more than one PVE per ethernet segment on AREDN, since largest supported size is /27-
 each server consumes an IP, as does the hypervisor.
 
-Scripts at https://tteck.github.io/Proxmox/
-
-Proxmox VE Tools / Proxmox VE Post Install
+Scripts at https://tteck.github.io/Proxmox/ # Proxmox VE Tools / Proxmox VE Post Install
+Newer scripting:
+https://github.com/MacRimi/ProxMenux
