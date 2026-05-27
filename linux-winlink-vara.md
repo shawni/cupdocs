@@ -17,10 +17,10 @@ prerequisites from the Internet here.
 1. Click "Start using Bottles", click on "hamburger" main menu icon on upper 
 right, pick Preferences.
 1. On "General" menu, click off choices that confuses the experience.  I remove:
-11. Show Funding Dialog
-11. List Steam...
-11. List Epic...
-11. List Ubisoft..
+ 1. Show Funding Dialog
+ 1. List Steam...
+ 1. List Epic...
+ 1. List Ubisoft..
 1. Click "Runners" at the top.  Open "Caffe" menu, select download option next
 to "Caffee 9.7".
 1. Close Preferences.
@@ -33,22 +33,22 @@ bottle.  Choose caffe-9.7 as the runner, then click "Create".
 1. OPTIONAL: If your radio interface presents a serial port over USB, we have 
 to inform Bottles it exists and allow access to it.  THIS IS NOT NEEDED FOR
 SIGNALINK.
-11. Go back to the "Details" window on your current bottle (back arrow at 
+ 1. Go back to the "Details" window on your current bottle (back arrow at 
 top left) and select "Run Executable".  Acknowledge the fact that a Bottle is
  a sandbox environment.
-11. In the file selector, choose "drive_c", then "windows", then "regedit.exe".
-11. In regedit, add a String key under the path
+ 1. In the file selector, choose "drive_c", then "windows", then "regedit.exe".
+ 1. In regedit, add a String key under the path
  HKEY_LOCAL_MACHINE\Software\wine\Ports.  The key is "COM1", and the path is
 "/dev/ttyUSB0", assuming that's where it shows up on the Linux side.  It's 
 very very likely so.
-11. Exit regedit.
-11. Exit Bottles.  You will need to start a Terminal.
-11. In Terminal, type "sudo usermod -a -G dialout :your-login-name:"  Please
+ 1. Exit regedit.
+ 1. Exit Bottles.  You will need to start a Terminal.
+ 1. In Terminal, type "sudo usermod -a -G dialout :your-login-name:"  Please
 substitute your actual login name there.  You will need to type in your
 password for this step.
-11. Log out completely and log back in, or alternatively reboot your laptop,
+ 1. Log out completely and log back in, or alternatively reboot your laptop,
 to make sure the group changes are in effect.
-11. Restart Bottles.
+ 1. Restart Bottles.
 1. Using the Brave web browser, download Winlink Express and VARA FM from
 winlink.org, under the Download tab.  Winlink Express is under User Programs, VARA FM is in VARA Products.
 1. Open a Terminal, type:
