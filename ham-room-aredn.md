@@ -1,5 +1,5 @@
 
-## David Kidd Ham Room AREDN Procedures
+# David Kidd Ham Room AREDN Procedures
 
 We are currently cloning the MAC address of one of the laptops to the
 hAP (kd7zdo-hap-02) in order to present a known address to the County

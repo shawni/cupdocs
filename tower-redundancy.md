@@ -1,5 +1,5 @@
 
-## Remote tower AREDN node redundancy
+# Remote tower AREDN node redundancy
 
 Certain AREDN nodes may be installed on towers or locations where access
 to the radio is highly restricted, difficult, or both.  In order to

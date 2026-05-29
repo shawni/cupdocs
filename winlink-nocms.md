@@ -1,5 +1,5 @@
 
-## The local NOCMS Winlink distribution service
+# The local NOCMS Winlink distribution service
 
 Winlink is the gold standard for emergency communication in ARES.  It
 adapts to many underyling carrier technologies and protocols and is

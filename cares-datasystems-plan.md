@@ -1,4 +1,4 @@
-## CARES Data Systems Plan, v0.1
+# CARES Data Systems Plan, v0.1
 
 CARES intends to offer our hams and served agencies a
 set of data services that will be available even in the event of local
